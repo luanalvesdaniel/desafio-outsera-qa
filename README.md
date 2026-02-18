@@ -52,7 +52,6 @@ Inclui:
 ├── generate-report.js
 └── README.md
 ```
-```
 
 ## Versões Utilizadas
 
