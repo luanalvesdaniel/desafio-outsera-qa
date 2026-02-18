@@ -163,12 +163,12 @@ export default function () {
 ## Boas Práticas e Fluxo
 
 
-**API mockada**: Endpoints REST simulados para `/users`, `/health`, `/heavy` em `src/api/mock-api/server.js` e `tests/performance/mock-api/server.js`.
-**Schemas JSON**: Validação de contrato com Ajv/Ajv-formats em `src/api/schemas/`.
-**Dotenv**: Variáveis de ambiente centralizadas em `.env`.
-**BDD**: Features e steps Cucumber em `tests/api/features`, `tests/api/step-definitions`, `tests/e2e/features`, `tests/e2e/step-definitions`.
-**Playwright**: Automação E2E com suporte a múltiplos navegadores e screenshots.
-**Relatórios**: HTML/JSON automáticos em `reports/` para API, E2E e performance.
-**Exemplo de feature**: Veja `tests/api/features/users.feature`, `tests/e2e/features/login.feature`, `tests/e2e/features/checkout.feature`.
-**Validação de contrato**: Steps usam Ajv para garantir conformidade do payload.
-**Performance**: Testes K6 simulam carga e geram relatórios visuais.
+- **API mockada**: Endpoints REST simulados para `/users`, `/health`, `/heavy` em `src/api/mock-api/server.js` e `tests/performance/mock-api/server.js`.
+- **Schemas JSON**: Validação de contrato com Ajv/Ajv-formats em `src/api/schemas/`.
+- **Dotenv**: Variáveis de ambiente centralizadas em `.env`.
+- **BDD**: Features e steps Cucumber em `tests/api/features`, `tests/api/step-definitions`, `tests/e2e/- features`, `tests/e2e/step-definitions`.
+- **Playwright**: Automação E2E com suporte a múltiplos navegadores e screenshots.
+- **Relatórios**: HTML/JSON automáticos em `reports/` para API, E2E e performance.
+- **Exemplo de feature**: Veja `tests/api/features/users.feature`, `tests/e2e/features/login.feature`, `tests/- e2e/features/checkout.feature`.
+- **Validação de contrato**: Steps usam Ajv para garantir conformidade do payload.
+- **Performance**: Testes K6 simulam carga e geram relatórios visuais.
