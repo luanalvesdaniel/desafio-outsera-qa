@@ -19,7 +19,7 @@ jobs:
       - name: Executar testes de API
         run: npm run test:api
       - name: Upload Relatório API
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: api-report
           path: reports/api-report.html
@@ -39,7 +39,7 @@ jobs:
       - name: Executar testes E2E
         run: npm run test:e2e
       - name: Upload Relatório E2E
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: e2e-report
           path: reports/e2e-report.html
@@ -63,7 +63,7 @@ jobs:
       - name: Executar testes de performance
         run: npm run test:performance
       - name: Upload Relatório Performance
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: k6-report
           path: reports/k6-report.html
