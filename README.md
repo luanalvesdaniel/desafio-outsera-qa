@@ -147,8 +147,21 @@ export default function () {
 }
 ```
 
-## Boas Práticas e Fluxo
 
+## Integração Contínua (CI)
+
+O projeto conta com um workflow de Integração Contínua (CI) automatizado via GitHub Actions, definido no arquivo `.github/workflows/ci.yml`. Esse workflow executa automaticamente os testes de API, E2E e performance a cada push ou pull request na branch `main`.
+
+**Principais etapas do CI:**
+- Instala as dependências do projeto.
+- Executa os testes de API, E2E e performance em sequência.
+- Gera relatórios HTML dos testes em cada etapa.
+- Realiza o upload dos relatórios como artifacts do GitHub Actions.
+
+> **Dica:** Nos steps "Upload Relatório" do workflow, os relatórios gerados ficam disponíveis para download direto na interface do GitHub Actions, facilitando a visualização dos resultados dos testes após cada execução do CI.
+
+---
+## Boas Práticas e Fluxo
 
 - **API mockada**: Endpoints REST simulados para `/users`, `/health`, `/heavy` em `src/api/mock-api/server.js` e `tests/performance/mock-api/server.js`.
 - **Schemas JSON**: Validação de contrato com Ajv/Ajv-formats em `src/api/schemas/`.
