@@ -1,4 +1,5 @@
 # language: pt
+@type_api
 
 Funcionalidade: API - Usuários da API
   Como consumidor da API

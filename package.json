@@ -6,9 +6,9 @@
   "scripts": {
     "test": "cucumber-js --config cucumber.cjs --retry 1 --tags \"not @skip\"",
     "start:mock:api": "node src/api/mock-api/server.js",
-    "test:mockapi": "cucumber-js tests/api/* --config cucumber.api.cjs",
-    "test:api": "concurrently -k -s first \"npm run start:mock:api\" \"npm run test:mockapi\"",
-    "test:e2e": "cucumber-js --config cucumber.e2e.cjs && node generate-report.js",
+    "test:mock:api": "cucumber-js tests/api/* --config cucumber.api.cjs --tags \"@type_api and not @skip\"",
+    "test:api": "concurrently -k -s first \"npm run start:mock:api\" \"npm run test:mock:api\"",
+    "test:e2e": "cucumber-js --config cucumber.e2e.cjs --tags \"@type_e2e and not @skip\" && node generate-report.js",
     "start:mock:k6": "node tests/performance/mock-api/server.js",
     "test:k6": "k6 run --summary-export=reports/k6-summary.json tests/performance/k6-load-test.js",
     "report:k6": "node tests/performance/generate-k6-report.js",
@@ -24,8 +24,7 @@
     "dotenv": "16.0.0",
     "express": "5.2.1",
     "multiple-cucumber-html-reporter": "3.5.0",
-    "node-fetch": "^3.3.2",
-    "start-server-and-test": "2.1.3",
-    "uuid": "9.0.0"
+    "node-fetch": "3.3.2",
+    "start-server-and-test": "2.1.3"
   }
 }

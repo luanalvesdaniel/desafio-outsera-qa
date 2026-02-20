@@ -2,9 +2,9 @@
 
 Projeto de automação de testes completo, incluindo testes de API, E2E (end-to-end) e performance, com geração de relatórios automatizada.
 Inclui:
-- Testes de API (contrato e funcionalidade)
+- Testes de API com Mock (contrato e funcionalidade)
 - Testes E2E com Playwright e Cucumber
-- Testes de performance com K6
+- Testes de performance com K6 e Mock
 - Mock de API para cenários controlados
 - Geração de relatórios HTML/JSON para todos os tipos de teste
 
@@ -65,25 +65,24 @@ Inclui:
 - **express**: 5.2.1 — Framework web minimalista para Node.js, usado para mock de APIs
 - **multiple-cucumber-html-reporter**: 3.5.0 — Gera relatórios HTML customizados a partir dos testes Cucumber
 - **start-server-and-test**: 2.1.3 — Inicia servidores e executa testes em sequência, útil para E2E
-- **uuid**: 9.0.0 — Geração de identificadores únicos universais (UUIDs)
-- **node-fetch**: ^3.3.2 — Requisições HTTP (utilitário)
+- **node-fetch**: 3.3.2 — Requisições HTTP (utilitário)
 
 ## Instalação
 
 1. Instale as dependências:
-	```bash
-	npm install
-	```
-	```bash
-	npm install playwright
-	```
+```bash
+npm install
+```
+```bash
+npm install playwright
+```
 2. Crie um arquivo `.env` na raiz (exemplo já incluso).
 3. Instale o [k6](https://k6.io/) para testes de performance.
 
 ## Como Executar
 
 ### 1. Testes de API
-Suba o mock da API e Execute os testes:
+Execute os testes com o comando abaixo (inicia e finaliza o mock server automaticamente):
 ```bash
 npm run test:api
 ```
@@ -94,39 +93,27 @@ Relatórios gerados em `reports/api-report.html` e `reports/api-report.json`.
 ### 2. Testes E2E (End-to-End)
 Os testes E2E simulam fluxos completos na aplicação web (exemplo: login, compra, checkout).
 
-
-
 Execute:
 ```bash
 npm run test:e2e
 ```
 Relatórios gerados em `reports/e2e-report.html` e `reports/e2e-report.json`.
-Ao fim dos testes de API e E2E a automação gera um html customizado em `reports/e2e-final-report`;
+Ao fim dos testes de API e E2E a automação gera um html customizado contendo ambos em `reports/e2e-final-report`;
 
 Exemplo de feature:
 ```gherkin
 Funcionalidade: E2E - Login na aplicação Automation Exercise
 
-	Cenário: Login com credenciais válidas
-		Dado que eu estou na página de login
-		Quando eu faço login com email "username@gmail.com" e senha "A3LcUWvZkxTV@ea"
-		Então devo visualizar que estou logado com sucesso
-
-	Esquema do Cenário: Login inválido
-		Dado que eu estou na página de login
-		Quando eu faço login com email "<email>" e senha "<senha>"
-		Então devo visualizar mensagem de erro
-
-		Exemplos:
-			| email                  | senha            |
-			| username@gmail.com     | senha_errada     |
-			| usuario_invalido@x.com | A3LcUWvZkxTV@ea  |
+  Cenário: Login com credenciais válidas
+    Dado que eu estou na página de login
+    Quando eu faço login com email "username@gmail.com" e senha "A3LcUWvZkxTV@ea"
+    Então devo visualizar que estou logado com sucesso
 ```
 
 ### 3. Testes de Performance (K6)
 Os testes de performance simulam carga e avaliam tempo de resposta, taxa de erro e throughput.
 
-Suba o mock para performance e Execute o teste de performance:
+Execute os testes com o comando abaixo (inicia e finaliza o mock server automaticamente)
 ```bash
 npm run test:performance
 ```
@@ -141,8 +128,8 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export const options = {
-	vus: 10,
-	duration: '10s',
+	vus: 500,
+	duration: '5m',
 	thresholds: {
 		http_req_duration: ['avg<600', 'p(95)<800', 'p(99)<1200', 'max<1500'],
 		http_req_failed: ['rate<0.20'],

@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-// Middleware para tratar JSON malformado
+// Trata JSON malformado
 app.use(express.json({
   strict: true,
   verify: (req, res, buf, encoding) => {
@@ -15,7 +15,7 @@ app.use(express.json({
   }
 }));
 
-// Middleware de autenticação simples
+// Autenticação simples
 app.use((req, res, next) => {
   if (req.headers.authorization === 'Bearer token-invalido') {
     return res.status(401).json({ error: 'Unauthorized' });
@@ -26,7 +26,10 @@ app.use((req, res, next) => {
 // Usuários mockados
 let users = [
   { id: 1, name: 'Alice', email: 'alice@example.com' },
-  { id: 2, name: 'Bob', email: 'bob@example.com' }
+  { id: 2, name: 'Bob', email: 'bob@example.com' },
+  { id: 3, name: 'Charlie', email: 'charlie@example.com' },
+  { id: 4, name: 'David', email: 'david@example.com' },
+  { id: 5, name: 'Eve', email: 'eve@example.com' }
 ];
 
 // Health check

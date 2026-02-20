@@ -6,7 +6,7 @@
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;atualizar-usuário-com-sucesso",
         "keyword": "Cenário",
-        "line": 5,
+        "line": 6,
         "name": "Atualizar usuário com sucesso",
         "steps": [
           {
@@ -29,51 +29,56 @@
               }
             ],
             "keyword": "Quando ",
-            "line": 6,
+            "line": 7,
             "name": "faço uma requisição PUT para \"/users/1\" com o payload:",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 35836700
+              "duration": 33110599
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 9,
+            "line": 10,
             "name": "o status da resposta deve ser 200",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 78699
+              "duration": 78599
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 10,
+            "line": 11,
             "name": "o corpo da resposta deve conter o usuário criado",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 18709700
+              "duration": 15521500
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;atualizar-usuário-inexistente",
         "keyword": "Cenário",
-        "line": 12,
+        "line": 13,
         "name": "Atualizar usuário inexistente",
         "steps": [
           {
@@ -96,300 +101,340 @@
               }
             ],
             "keyword": "Quando ",
-            "line": 13,
+            "line": 14,
             "name": "faço uma requisição PUT para \"/users/999\" com o payload:",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 3119599
+              "duration": 2751899
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 16,
+            "line": 17,
             "name": "o status da resposta deve ser 404",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 44099
+              "duration": 39700
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 17,
+            "line": 18,
             "name": "o corpo da resposta deve conter o erro \"User not found\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 77600
+              "duration": 58099
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;deletar-usuário-com-sucesso",
         "keyword": "Cenário",
-        "line": 19,
+        "line": 20,
         "name": "Deletar usuário com sucesso",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 20,
+            "line": 21,
             "name": "faço uma requisição DELETE para \"/users/1\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 2045200
+              "duration": 2084799
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 21,
+            "line": 22,
             "name": "o status da resposta deve ser 204",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 36299
+              "duration": 41700
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;deletar-usuário-inexistente",
         "keyword": "Cenário",
-        "line": 23,
+        "line": 24,
         "name": "Deletar usuário inexistente",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 24,
+            "line": 25,
             "name": "faço uma requisição DELETE para \"/users/999\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1492999
+              "duration": 1498299
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 25,
+            "line": 26,
             "name": "o status da resposta deve ser 404",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 64399
+              "duration": 43300
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 26,
+            "line": 27,
             "name": "o corpo da resposta deve conter o erro \"User not found\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 28099
+              "duration": 28700
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;requisição-com-método-inválido",
         "keyword": "Cenário",
-        "line": 28,
+        "line": 29,
         "name": "Requisição com método inválido",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 29,
+            "line": 30,
             "name": "faço uma requisição PATCH para \"/users/1\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1915300
+              "duration": 1314999
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 30,
+            "line": 31,
             "name": "o status da resposta deve ser 404",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 45100
+              "duration": 35400
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;requisição-com-payload-malformado",
         "keyword": "Cenário",
-        "line": 32,
+        "line": 33,
         "name": "Requisição com payload malformado",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 33,
+            "line": 34,
             "name": "faço uma requisição POST para \"/users\" com o corpo malformado",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 3573300
+              "duration": 3687500
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 34,
+            "line": 35,
             "name": "o status da resposta deve ser 400",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 40600
+              "duration": 40499
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;verificar-headers-de-resposta",
         "keyword": "Cenário",
-        "line": 36,
+        "line": 37,
         "name": "Verificar headers de resposta",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 37,
+            "line": 38,
             "name": "faço uma requisição GET para \"/users\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2303700
+              "duration": 1716200
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 38,
+            "line": 39,
             "name": "o header \"content-type\" da resposta deve conter \"application/json\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:83"
             },
             "result": {
               "status": "passed",
-              "duration": 230399
+              "duration": 133600
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---endpoints-avançados-de-usuários;autenticação-inválida",
         "keyword": "Cenário",
-        "line": 40,
+        "line": 41,
         "name": "Autenticação inválida",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 41,
+            "line": 42,
             "name": "faço uma requisição GET para \"/users\" com autenticação inválida",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:70"
             },
             "result": {
               "status": "passed",
-              "duration": 2806000
+              "duration": 1489900
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 42,
+            "line": 43,
             "name": "o status da resposta deve ser 401",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 47600
+              "duration": 25800
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 43,
+            "line": 44,
             "name": "o corpo da resposta deve conter o erro \"Unauthorized\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 30900
+              "duration": 22899
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "api---endpoints-avançados-de-usuários",
-    "line": 3,
+    "line": 4,
     "keyword": "Funcionalidade",
     "name": "API - Endpoints avançados de usuários",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@type_api",
+        "line": 2
+      }
+    ],
     "uri": "tests\\api\\features\\users-extra.feature"
   },
   {
@@ -399,57 +444,62 @@
         "description": "",
         "id": "api---usuários-da-api;listar-usuários",
         "keyword": "Cenário",
-        "line": 8,
+        "line": 9,
         "name": "Listar usuários",
         "steps": [
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 9,
+            "line": 10,
             "name": "faço uma requisição GET para \"/users\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2163499
+              "duration": 2091099
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 10,
+            "line": 11,
             "name": "o status da resposta deve ser 200",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 37000
+              "duration": 28800
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 11,
+            "line": 12,
             "name": "o corpo da resposta deve ser uma lista de usuários",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 99000
+              "duration": 52199
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---usuários-da-api;criar-usuário-com-sucesso",
         "keyword": "Cenário",
-        "line": 13,
+        "line": 14,
         "name": "Criar usuário com sucesso",
         "steps": [
           {
@@ -472,51 +522,56 @@
               }
             ],
             "keyword": "Quando ",
-            "line": 14,
+            "line": 15,
             "name": "faço uma requisição POST para \"/users\" com o payload:",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2543700
+              "duration": 1933400
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 17,
+            "line": 18,
             "name": "o status da resposta deve ser 201",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 43400
+              "duration": 27799
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 18,
+            "line": 19,
             "name": "o corpo da resposta deve conter o usuário criado",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 119999
+              "duration": 112199
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "api---usuários-da-api;criar-usuário-com-dados-inválidos",
         "keyword": "Cenário",
-        "line": 20,
+        "line": 21,
         "name": "Criar usuário com dados inválidos",
         "steps": [
           {
@@ -539,52 +594,62 @@
               }
             ],
             "keyword": "Quando ",
-            "line": 21,
+            "line": 22,
             "name": "faço uma requisição POST para \"/users\" com o payload:",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2147199
+              "duration": 1687000
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 24,
+            "line": 25,
             "name": "o status da resposta deve ser 400",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 34400
+              "duration": 28800
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
-            "line": 25,
+            "line": 26,
             "name": "o corpo da resposta deve conter o erro \"Missing fields\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 18500
+              "duration": 18100
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_api",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "api---usuários-da-api",
-    "line": 3,
+    "line": 4,
     "keyword": "Funcionalidade",
     "name": "API - Usuários da API",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@type_api",
+        "line": 2
+      }
+    ],
     "uri": "tests\\api\\features\\users.feature"
   }
 ]

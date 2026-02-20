@@ -1,4 +1,5 @@
 # language: pt
+@type_e2e
 
 Funcionalidade: E2E - Fluxo de compra na Automation Exercise
 

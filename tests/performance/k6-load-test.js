@@ -2,8 +2,8 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export const options = {
-  vus: 10, // configurado 10 usuários virtuais para simular carga para não gerar erros por limitação do mock
-  duration: '10s', // Duração de 10 segundos para agilidade no teste
+  vus: 500,
+  duration: '5m',
 
   summaryTrendStats: ['avg', 'min', 'med', 'max', 'p(90)', 'p(95)', 'p(99)'],
 

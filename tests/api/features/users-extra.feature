@@ -1,4 +1,5 @@
 # language: pt
+@type_api
 
 Funcionalidade: API - Endpoints avançados de usuários
 

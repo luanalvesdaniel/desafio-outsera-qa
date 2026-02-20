@@ -6,7 +6,7 @@
         "description": "",
         "id": "e2e---fluxo-de-compra-na-automation-exercise;compra-completa-com-dados-válidos",
         "keyword": "Cenário",
-        "line": 5,
+        "line": 6,
         "name": "Compra completa com dados válidos",
         "steps": [
           {
@@ -14,72 +14,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 234719700
+              "duration": 249346400
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 6,
+            "line": 7,
             "name": "que eu estou logado na aplicação",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 3904759600
+              "duration": 2765869099
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 7,
+            "line": 8,
             "name": "eu adiciono um produto ao carrinho",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2854426000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "E ",
-            "line": 8,
-            "name": "eu prossigo para o checkout",
-            "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 604215200
+              "duration": 2857801099
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 9,
+            "name": "eu prossigo para o checkout",
+            "match": {
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606045000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
             "name": "eu finalizo o pagamento com dados válidos",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 1572403200
+              "duration": 1557066799
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 10,
+            "line": 11,
             "name": "devo visualizar a confirmação de pedido realizado",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 57741699
+              "duration": 52506799
             }
           },
           {
@@ -87,18 +87,23 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 143521199
+              "duration": 141013800
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "e2e---fluxo-de-compra-na-automation-exercise;tentativa-de-pagamento-com-cartão-inválido",
         "keyword": "Cenário",
-        "line": 12,
+        "line": 13,
         "name": "Tentativa de pagamento com cartão inválido",
         "steps": [
           {
@@ -106,72 +111,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 234127199
+              "duration": 213504699
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 13,
+            "line": 14,
             "name": "que eu estou logado na aplicação",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2346689300
+              "duration": 2176459199
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 14,
+            "line": 15,
             "name": "eu adiciono um produto ao carrinho",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2025702499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "E ",
-            "line": 15,
-            "name": "eu prossigo para o checkout",
-            "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 593427499
+              "duration": 1574247199
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 16,
+            "name": "eu prossigo para o checkout",
+            "match": {
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 593469499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
             "name": "eu tento finalizar o pagamento com cartão inválido",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:46"
             },
             "result": {
               "status": "passed",
-              "duration": 1545631800
+              "duration": 1549429899
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 17,
+            "line": 18,
             "name": "devo visualizar mensagem de erro no pagamento",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:56"
             },
             "result": {
               "status": "passed",
-              "duration": 240000
+              "duration": 180399
             }
           },
           {
@@ -179,19 +184,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 196001400
+              "duration": 187432399
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "e2e---fluxo-de-compra-na-automation-exercise",
-    "line": 3,
+    "line": 4,
     "keyword": "Funcionalidade",
     "name": "E2E - Fluxo de compra na Automation Exercise",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@type_e2e",
+        "line": 2
+      }
+    ],
     "uri": "tests\\e2e\\features\\checkout.feature"
   },
   {
@@ -201,7 +216,7 @@
         "description": "",
         "id": "e2e---login-na-aplicação-automation-exercise;login-com-credenciais-válidas",
         "keyword": "Cenário",
-        "line": 5,
+        "line": 6,
         "name": "Login com credenciais válidas",
         "steps": [
           {
@@ -209,46 +224,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 226183799
+              "duration": 214985300
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 6,
+            "line": 7,
             "name": "que eu estou na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1640777999
+              "duration": 1409742899
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 7,
+            "line": 8,
             "name": "eu faço login com email \"username@gmail.com\" e senha \"A3LcUWvZkxTV@ea\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 735211400
+              "duration": 895354499
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 8,
+            "line": 9,
             "name": "devo visualizar que estou logado com sucesso",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 81858599
+              "duration": 108200099
             }
           },
           {
@@ -256,77 +271,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424157400
+              "duration": 374080300
             }
           }
         ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "e2e---login-na-aplicação-automation-exercise;login-inválido",
-        "keyword": "Esquema do Cenário",
-        "line": 17,
-        "name": "Login inválido",
-        "steps": [
+        "tags": [
           {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 229071299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Dado ",
-            "line": 11,
-            "name": "que eu estou na página de login",
-            "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1538657500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Quando ",
-            "line": 12,
-            "name": "eu faço login com email \"username@gmail.com\" e senha \"senha_errada\"",
-            "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 310658100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Então ",
-            "line": 13,
-            "name": "devo visualizar mensagem de erro",
-            "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 90687000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 149828600
-            }
+            "name": "@type_e2e",
+            "line": 2
           }
         ],
-        "tags": [],
         "type": "scenario"
       },
       {
@@ -341,46 +295,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 211161700
+              "duration": 213929700
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 11,
+            "line": 12,
             "name": "que eu estou na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1479539799
+              "duration": 1464546399
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 12,
-            "name": "eu faço login com email \"usuario_invalido@x.com\" e senha \"A3LcUWvZkxTV@ea\"",
+            "line": 13,
+            "name": "eu faço login com email \"username@gmail.com\" e senha \"senha_errada\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 305758499
+              "duration": 293118999
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 13,
+            "line": 14,
             "name": "devo visualizar mensagem de erro",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 61766900
+              "duration": 63769699
             }
           },
           {
@@ -388,65 +342,70 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 140251899
+              "duration": 132441699
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "e2e---login-na-aplicação-automation-exercise;campos-obrigatórios-em-branco",
+        "id": "e2e---login-na-aplicação-automation-exercise;login-inválido",
         "keyword": "Esquema do Cenário",
-        "line": 27,
-        "name": "Campos obrigatórios em branco",
+        "line": 19,
+        "name": "Login inválido",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 197382000
+              "duration": 216337700
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 21,
+            "line": 12,
             "name": "que eu estou na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1449295699
+              "duration": 1480439200
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 22,
-            "name": "eu faço login com email \"\" e senha \"A3LcUWvZkxTV@ea\"",
+            "line": 13,
+            "name": "eu faço login com email \"usuario_invalido@x.com\" e senha \"A3LcUWvZkxTV@ea\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 76355700
+              "duration": 286909400
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 23,
-            "name": "devo permanecer na página de login",
+            "line": 14,
+            "name": "devo visualizar mensagem de erro",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:23"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 224999
+              "duration": 67738199
             }
           },
           {
@@ -454,11 +413,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 151240399
+              "duration": 133341000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
@@ -473,46 +437,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 239938900
+              "duration": 183542600
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 21,
+            "line": 22,
             "name": "que eu estou na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1508848200
+              "duration": 1509493999
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 22,
-            "name": "eu faço login com email \"username@gmail.com\" e senha \"\"",
+            "line": 23,
+            "name": "eu faço login com email \"\" e senha \"A3LcUWvZkxTV@ea\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 90189000
+              "duration": 70990900
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 23,
+            "line": 24,
             "name": "devo permanecer na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 118099
+              "duration": 219700
             }
           },
           {
@@ -520,11 +484,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 153472000
+              "duration": 137430500
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       },
       {
@@ -539,46 +508,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 215826099
+              "duration": 185003499
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 21,
+            "line": 22,
             "name": "que eu estou na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1551554900
+              "duration": 1512848799
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 22,
-            "name": "eu faço login com email \"\" e senha \"\"",
+            "line": 23,
+            "name": "eu faço login com email \"username@gmail.com\" e senha \"\"",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 69318500
+              "duration": 77333299
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 23,
+            "line": 24,
             "name": "devo permanecer na página de login",
             "match": {
               "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 82899
+              "duration": 95699
             }
           },
           {
@@ -586,19 +555,100 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 146574599
+              "duration": 135908900
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "e2e---login-na-aplicação-automation-exercise;campos-obrigatórios-em-branco",
+        "keyword": "Esquema do Cenário",
+        "line": 30,
+        "name": "Campos obrigatórios em branco",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200008099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 22,
+            "name": "que eu estou na página de login",
+            "match": {
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1496224600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 23,
+            "name": "eu faço login com email \"\" e senha \"\"",
+            "match": {
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82527400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 24,
+            "name": "devo permanecer na página de login",
+            "match": {
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144695700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@type_e2e",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "e2e---login-na-aplicação-automation-exercise",
-    "line": 3,
+    "line": 4,
     "keyword": "Funcionalidade",
     "name": "E2E - Login na aplicação Automation Exercise",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@type_e2e",
+        "line": 2
+      }
+    ],
     "uri": "tests\\e2e\\features\\login.feature"
   }
 ]
