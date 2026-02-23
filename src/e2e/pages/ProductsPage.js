@@ -19,7 +19,6 @@ export class ProductsPage {
     await produto.hover();
     await produto.locator('.add-to-cart').first().click();
 
-    // espera modal aparecer
     await this.page.waitForSelector(this.modal, { state: 'visible' });
   }
 

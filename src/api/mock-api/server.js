@@ -52,7 +52,6 @@ app.get('/users/:id', (req, res) => {
 // Criar usuário
 app.post('/users', (req, res) => {
   if (req.invalidJson) return res.status(400).json({ error: 'Malformed JSON' });
-  // console.log('POST /users payload:', req.body);
   const { name, email } = req.body;
   if (!name || !email) return res.status(400).json({ error: 'Missing fields' });
   const id = users.length + 1;

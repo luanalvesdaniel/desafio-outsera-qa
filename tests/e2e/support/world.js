@@ -1,7 +1,7 @@
 import {
   setWorldConstructor,
   Before,
-  After,
+  AfterStep,
   setDefaultTimeout
 } from '@cucumber/cucumber';
 import { chromium } from 'playwright';
@@ -30,21 +30,19 @@ Before(async function () {
   this.page = await this.context.newPage();
 });
 
-After(async function (scenario) {
 
-  const dir = 'reports/screenshots';
-
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+AfterStep(async function ({ result }) {
+  if (result?.status === 'FAILED') {
+    const dir = 'reports/screenshots';
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    const fileName = `${Date.now()}-failed-step.png`;
+    const filePath = path.join(dir, fileName);
+    await this.page.screenshot({ path: filePath, fullPage: true });
+    if (typeof this.attach === 'function') {
+      const image = fs.readFileSync(filePath);
+      await this.attach(image.toString('base64'), 'image/png');
+    }
   }
-
-  const filePath = path.join(
-    dir,
-    `${scenario.pickle.name.replace(/[^a-zA-Z0-9]/g, '_')}.png`
-  );
-
-  await this.page.screenshot({ path: filePath, fullPage: true });
-
-  await this.browser.close();
 });
-

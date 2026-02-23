@@ -53,11 +53,10 @@ When('faço uma requisição PATCH para {string}', async function (endpoint) {
 });
 
 When('faço uma requisição POST para {string} com o corpo malformado', async function (endpoint) {
-  // Envia um JSON inválido propositalmente
   const res = await fetch(`${this.baseUrl}${endpoint}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', ...this.headers },
-    body: '{ name: "sem aspas" email: 123 }' // JSON inválido
+    body: '{ name: "sem aspas" email: 123 }'
   });
   this.response = res;
   try {
@@ -68,7 +67,6 @@ When('faço uma requisição POST para {string} com o corpo malformado', async f
 });
 
 When('faço uma requisição GET para {string} com autenticação inválida', async function (endpoint) {
-  // Simula header de autenticação inválido
   const res = await fetch(`${this.baseUrl}${endpoint}`, {
     headers: { Authorization: 'Bearer token-invalido' }
   });

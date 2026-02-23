@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 249346400
+              "duration": 267419100
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "que eu estou logado na aplicação",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:10"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2765869099
+              "duration": 2777911999
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "eu adiciono um produto ao carrinho",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:22"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2857801099
+              "duration": 2927327199
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "eu prossigo para o checkout",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 606045000
+              "duration": 1249776198
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 10,
             "name": "eu finalizo o pagamento com dados válidos",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:41"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1557066799
+              "duration": 1545864300
             }
           },
           {
@@ -75,19 +75,11 @@
             "line": 11,
             "name": "devo visualizar a confirmação de pedido realizado",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:51"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 52506799
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 141013800
+              "duration": 59613698
             }
           }
         ],
@@ -111,7 +103,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 213504699
+              "duration": 259051699
             }
           },
           {
@@ -120,11 +112,11 @@
             "line": 14,
             "name": "que eu estou logado na aplicação",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:10"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2176459199
+              "duration": 2307092799
             }
           },
           {
@@ -133,11 +125,11 @@
             "line": 15,
             "name": "eu adiciono um produto ao carrinho",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:22"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1574247199
+              "duration": 1698203699
             }
           },
           {
@@ -146,11 +138,11 @@
             "line": 16,
             "name": "eu prossigo para o checkout",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:30"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 593469499
+              "duration": 615546299
             }
           },
           {
@@ -159,11 +151,11 @@
             "line": 17,
             "name": "eu tento finalizar o pagamento com cartão inválido",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:46"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 1549429899
+              "duration": 1547342898
             }
           },
           {
@@ -172,19 +164,11 @@
             "line": 18,
             "name": "devo visualizar mensagem de erro no pagamento",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:56"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\e2e\\step-definitions\\checkout.steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 180399
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 187432399
+              "duration": 1006051998
             }
           }
         ],
@@ -224,7 +208,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 214985300
+              "duration": 441551700
             }
           },
           {
@@ -237,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1409742899
+              "duration": 1569098799
             }
           },
           {
@@ -250,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 895354499
+              "duration": 725457799
             }
           },
           {
@@ -263,15 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 108200099
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 374080300
+              "duration": 98822399
             }
           }
         ],
@@ -295,7 +271,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 213929700
+              "duration": 302304700
             }
           },
           {
@@ -308,7 +284,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1464546399
+              "duration": 1763630499
             }
           },
           {
@@ -321,7 +297,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 293118999
+              "duration": 350163000
             }
           },
           {
@@ -334,15 +310,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63769699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 132441699
+              "duration": 98196100
             }
           }
         ],
@@ -366,7 +334,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 216337700
+              "duration": 335978100
             }
           },
           {
@@ -379,7 +347,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1480439200
+              "duration": 1555939299
             }
           },
           {
@@ -392,7 +360,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 286909400
+              "duration": 358859999
             }
           },
           {
@@ -405,15 +373,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67738199
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 133341000
+              "duration": 106462099
             }
           }
         ],
@@ -437,7 +397,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 183542600
+              "duration": 463801299
             }
           },
           {
@@ -450,7 +410,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1509493999
+              "duration": 1712595199
             }
           },
           {
@@ -463,7 +423,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70990900
+              "duration": 118938199
             }
           },
           {
@@ -476,15 +436,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 219700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 137430500
+              "duration": 267000
             }
           }
         ],
@@ -508,7 +460,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 185003499
+              "duration": 391249500
             }
           },
           {
@@ -521,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1512848799
+              "duration": 1636469799
             }
           },
           {
@@ -534,7 +486,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77333299
+              "duration": 119307899
             }
           },
           {
@@ -547,15 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 95699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 135908900
+              "duration": 205199
             }
           }
         ],
@@ -579,7 +523,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 200008099
+              "duration": 445298899
             }
           },
           {
@@ -592,7 +536,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1496224600
+              "duration": 1777402299
             }
           },
           {
@@ -605,7 +549,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82527400
+              "duration": 134794899
             }
           },
           {
@@ -618,15 +562,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 144695700
+              "duration": 324298
             }
           }
         ],

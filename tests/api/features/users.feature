@@ -12,14 +12,14 @@ Funcionalidade: API - Usuários da API
     E o corpo da resposta deve ser uma lista de usuários
 
   Cenário: Criar usuário com sucesso
-    Quando faço uma requisição POST para "/users" com o payload:
+    Quando faço uma requisição POST para "/users" com o payload válido:
       | name  | email              |
       | Carol | carol@email.com    |
     Então o status da resposta deve ser 201
     E o corpo da resposta deve conter o usuário criado
 
   Cenário: Criar usuário com dados inválidos
-    Quando faço uma requisição POST para "/users" com o payload:
+    Quando faço uma requisição POST para "/users" com o payload inválido:
       | name  | email |
       |       |       |
     Então o status da resposta deve ser 400

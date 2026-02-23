@@ -1,6 +1,7 @@
-import dotenv from 'dotenv';
+import { loadEnvByTarget } from '../../config/envLoader.js';
 
-dotenv.config();
+const target = process.env.TARGET_ENV || 'qa';
+loadEnvByTarget(target);
 
 export const e2eConfig = {
   baseURL: process.env.E2E_BASE_URL,

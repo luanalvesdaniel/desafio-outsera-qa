@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import assert from 'assert';
-import { LoginPage } from '../../../src/e2e/pages/LoginPage.js';
+import { LoginPage } from '../../../src/e2e/pages/index.js';
 
 Given('que eu estou na página de login', async function () {
   this.loginPage = new LoginPage(this.page);

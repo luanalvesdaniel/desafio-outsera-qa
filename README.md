@@ -84,7 +84,7 @@ npm install playwright
 ### 1. Testes de API
 Execute os testes com o comando abaixo (inicia e finaliza o mock server automaticamente):
 ```bash
-npm run test:api
+npm run test:api:qa
 ```
 Por padrão, a API estará em `http://localhost:3001` (configurável via `.env`).
 
@@ -95,10 +95,9 @@ Os testes E2E simulam fluxos completos na aplicação web (exemplo: login, compr
 
 Execute:
 ```bash
-npm run test:e2e
+npm run test:e2e:qa
 ```
 Relatórios gerados em `reports/e2e-report.html` e `reports/e2e-report.json`.
-Ao fim dos testes de API e E2E a automação gera um html customizado contendo ambos em `reports/e2e-final-report`;
 
 Exemplo de feature:
 ```gherkin
@@ -115,7 +114,7 @@ Os testes de performance simulam carga e avaliam tempo de resposta, taxa de erro
 
 Execute os testes com o comando abaixo (inicia e finaliza o mock server automaticamente)
 ```bash
-npm run test:performance
+npm run test:performance:qa
 ```
 
 Relatórios:

@@ -1,6 +1,7 @@
 import { setWorldConstructor, setDefaultTimeout } from '@cucumber/cucumber';
-import dotenv from 'dotenv';
-dotenv.config();
+import { loadEnvByTarget } from '../../../src/config/envLoader.js';
+const target = process.env.TARGET_ENV || 'qa';
+loadEnvByTarget(target);
 
 class ApiWorld {
   constructor() {

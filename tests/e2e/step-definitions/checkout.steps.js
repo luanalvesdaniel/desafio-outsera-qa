@@ -1,21 +1,12 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import assert from 'assert';
-import { LoginPage } from '../../../src/e2e/pages/LoginPage.js';
-import { ProductsPage } from '../../../src/e2e/pages/ProductsPage.js';
-import { CartPage } from '../../../src/e2e/pages/CartPage.js';
-import { CheckoutPage } from '../../../src/e2e/pages/CheckoutPage.js';
-import { PaymentPage } from '../../../src/e2e/pages/PaymentPage.js';
+import { LoginPage, ProductsPage, CartPage, CheckoutPage, PaymentPage } from '../../../src/e2e/pages/index.js';
 import { e2eConfig } from '../../../src/e2e/config/environment.js';
 
 Given('que eu estou logado na aplicação', async function () {
   this.loginPage = new LoginPage(this.page);
-
   await this.loginPage.acessarPaginaLogin();
-  await this.loginPage.realizarLogin(
-    e2eConfig.user,
-    e2eConfig.password
-  );
-
+  await this.loginPage.realizarLogin(e2eConfig.user, e2eConfig.password);
   await this.loginPage.validarLoginComSucesso();
 });
 
@@ -55,7 +46,6 @@ Then('devo visualizar a confirmação de pedido realizado', async function () {
 
 Then('devo visualizar mensagem de erro no pagamento', async function () {
   const urlAtual = await this.paymentPage.paginaAtual();
-
-  // Se continuar na página de pagamento, significa erro
-  assert.ok(urlAtual.includes('/payment'));
+  await this.page.waitForTimeout(1000);
+  assert.ok(urlAtual.includes('/payment'), 'Ainda está na tela de pagamento, indicando erro.');
 });

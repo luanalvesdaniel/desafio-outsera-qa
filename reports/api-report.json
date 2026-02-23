@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33110599
+              "duration": 38349000
             }
           },
           {
@@ -45,11 +45,11 @@
             "line": 10,
             "name": "o status da resposta deve ser 200",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 78599
+              "duration": 82400
             }
           },
           {
@@ -58,11 +58,11 @@
             "line": 11,
             "name": "o corpo da resposta deve conter o usuário criado",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:55"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 15521500
+              "duration": 17091599
             }
           }
         ],
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2751899
+              "duration": 3443600
             }
           },
           {
@@ -117,11 +117,11 @@
             "line": 17,
             "name": "o status da resposta deve ser 404",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 39700
+              "duration": 43699
             }
           },
           {
@@ -130,11 +130,11 @@
             "line": 18,
             "name": "o corpo da resposta deve conter o erro \"User not found\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 58099
+              "duration": 73300
             }
           }
         ],
@@ -163,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2084799
+              "duration": 2315699
             }
           },
           {
@@ -172,11 +172,11 @@
             "line": 22,
             "name": "o status da resposta deve ser 204",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 41700
+              "duration": 43199
             }
           }
         ],
@@ -205,7 +205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1498299
+              "duration": 2049100
             }
           },
           {
@@ -214,11 +214,11 @@
             "line": 26,
             "name": "o status da resposta deve ser 404",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 43300
+              "duration": 94699
             }
           },
           {
@@ -227,11 +227,11 @@
             "line": 27,
             "name": "o corpo da resposta deve conter o erro \"User not found\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 28700
+              "duration": 41799
             }
           }
         ],
@@ -260,7 +260,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1314999
+              "duration": 2237899
             }
           },
           {
@@ -269,11 +269,11 @@
             "line": 31,
             "name": "o status da resposta deve ser 404",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 35400
+              "duration": 42100
             }
           }
         ],
@@ -302,7 +302,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3687500
+              "duration": 3053099
             }
           },
           {
@@ -311,11 +311,11 @@
             "line": 35,
             "name": "o status da resposta deve ser 400",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 40499
+              "duration": 37799
             }
           }
         ],
@@ -340,11 +340,11 @@
             "line": 38,
             "name": "faço uma requisição GET para \"/users\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:8"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1716200
+              "duration": 1635600
             }
           },
           {
@@ -353,11 +353,11 @@
             "line": 39,
             "name": "o header \"content-type\" da resposta deve conter \"application/json\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:83"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:81"
             },
             "result": {
               "status": "passed",
-              "duration": 133600
+              "duration": 131799
             }
           }
         ],
@@ -382,11 +382,11 @@
             "line": 42,
             "name": "faço uma requisição GET para \"/users\" com autenticação inválida",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:70"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users-extra.steps.js:69"
             },
             "result": {
               "status": "passed",
-              "duration": 1489900
+              "duration": 1486099
             }
           },
           {
@@ -395,11 +395,11 @@
             "line": 43,
             "name": "o status da resposta deve ser 401",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 25800
+              "duration": 24599
             }
           },
           {
@@ -408,11 +408,11 @@
             "line": 44,
             "name": "o corpo da resposta deve conter o erro \"Unauthorized\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 22899
+              "duration": 17600
             }
           }
         ],
@@ -453,11 +453,11 @@
             "line": 10,
             "name": "faço uma requisição GET para \"/users\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:8"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2091099
+              "duration": 1782700
             }
           },
           {
@@ -466,11 +466,11 @@
             "line": 11,
             "name": "o status da resposta deve ser 200",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 28800
+              "duration": 42000
             }
           },
           {
@@ -479,11 +479,11 @@
             "line": 12,
             "name": "o corpo da resposta deve ser uma lista de usuários",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:49"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:56"
             },
             "result": {
               "status": "passed",
-              "duration": 52199
+              "duration": 58599
             }
           }
         ],
@@ -523,13 +523,13 @@
             ],
             "keyword": "Quando ",
             "line": 15,
-            "name": "faço uma requisição POST para \"/users\" com o payload:",
+            "name": "faço uma requisição POST para \"/users\" com o payload válido:",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:14"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1933400
+              "duration": 1968700
             }
           },
           {
@@ -538,11 +538,11 @@
             "line": 18,
             "name": "o status da resposta deve ser 201",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 27799
+              "duration": 28199
             }
           },
           {
@@ -551,11 +551,11 @@
             "line": 19,
             "name": "o corpo da resposta deve conter o usuário criado",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:55"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 112199
+              "duration": 1878399
             }
           }
         ],
@@ -595,13 +595,13 @@
             ],
             "keyword": "Quando ",
             "line": 22,
-            "name": "faço uma requisição POST para \"/users\" com o payload:",
+            "name": "faço uma requisição POST para \"/users\" com o payload inválido:",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:14"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 1687000
+              "duration": 3188400
             }
           },
           {
@@ -610,11 +610,11 @@
             "line": 25,
             "name": "o status da resposta deve ser 400",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:43"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 28800
+              "duration": 39999
             }
           },
           {
@@ -623,11 +623,11 @@
             "line": 26,
             "name": "o corpo da resposta deve conter o erro \"Missing fields\"",
             "match": {
-              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:62"
+              "location": "file:\\C:\\Users\\MedSimples\\Documents\\personal\\outsera\\desafio-outsera-qa\\tests\\api\\step-definitions\\users.steps.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 18100
+              "duration": 20499
             }
           }
         ],
