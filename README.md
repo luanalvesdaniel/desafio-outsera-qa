@@ -146,7 +146,6 @@ export default function () {
 }
 ```
 
-
 ## Integração Contínua (CI)
 
 O projeto conta com um workflow de Integração Contínua (CI) automatizado via GitHub Actions, definido no arquivo `.github/workflows/ci.yml`. Esse workflow executa automaticamente os testes de API, E2E e performance a cada push ou pull request na branch `main`.
